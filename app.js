@@ -1,7 +1,8 @@
 
-// 1 IMPORTAR EXPRESS
+
 const express = require('express');
 const app = express();
+
 app.set("view engine", 'ejs');
 
 const rotaPessoas = require('./src/routers/rotaPessoas');

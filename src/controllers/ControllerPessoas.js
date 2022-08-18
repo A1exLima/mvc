@@ -8,7 +8,10 @@
     },
 
     mostrarPessoas:(req, res)=>{
-        let id = req.params.id;
+        
+        let {id} = req.params;
+        // ou let id = req.params.id; 
+
         let pessoaId = pessoas.find(pes => pes.id == id);
 
         pessoaId==undefined?res.send('Pessoa inexistente'):res.send(pessoaId);
