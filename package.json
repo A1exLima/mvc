@@ -1,20 +1,24 @@
 {
-  "name": "projetoexpress",
+  "name": "mvc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.19"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alima07/mvc.git"
   },
+  "author": "Alex Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alima07/mvc/issues"
+  },
+  "homepage": "https://github.com/Alima07/mvc#readme",
   "dependencies": {
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
   }
 }

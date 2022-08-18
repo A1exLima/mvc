@@ -1,12 +1,13 @@
-
-
 const express = require('express');
 const app = express();
+const routerContato = require('./routers/routerContato');
 
 app.set("view engine", 'ejs');
 
-const rotaPessoas = require('./src/routers/rotaPessoas');
+app.use(express.static("public"))
 
-app.use('/pessoas', rotaPessoas);
+
+
+app.use('/contato', routerContato);
 
 app.listen(3000, ()=>console.log('Server running on port 3000'));

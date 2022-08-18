@@ -1,0 +1,13 @@
+header{
+    background-color: aqua;
+    width: 500px;
+}
+
+img{
+    width: 230px;
+    height: 250px;
+}
+
+p{
+    font-size: 2rem;
+}
