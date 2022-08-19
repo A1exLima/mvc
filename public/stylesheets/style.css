@@ -1,13 +1,25 @@
-header{
-    background-color: aqua;
+.sessao-1{
+    border: 2px red solid;
     width: 500px;
+    text-align: center;
 }
 
-img{
+.sessao-1 img{
     width: 230px;
     height: 250px;
 }
 
-p{
+.sessao-1 p{
     font-size: 2rem;
+}
+
+.sessao-2 {
+    margin-top: 10px;
+    border: 2px blue solid;
+    width: 500px;
+    text-align: center;    
+}
+
+.sessao-2 strong {
+    font-size:x-large;
 }
