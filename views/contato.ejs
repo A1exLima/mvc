@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Contato</title>
-    <link rel='stylesheet' href='/stylesheets/style.css'/>
-  </head>
+<%- include("./partials/head") %>
 
   <body>
-    <header>
-      <section class="sessao-1">
-        <h1>CONTATO</h1>
-        <p>Nome: Alex  Lima</p>
-        <p>Fone: 11 99999-999</p>
-        <p>E-mail: alex.lima@email.com</p>
-        <img src="/images/2.png" alt="avatar">
-      </section>
+    
+    <%- include("./partials/header") %>
 
-      <section class="sessao-2">
-        <% for (let i = 1; i < 5; i++) { %>
-          <p>TESTANDO AS TAGS DO EJS =>   <strong> Nº <%= i %> </strong></p>
-        <% } %>
-      </section>
-      
-    </header>
+    <h2>Página Contato</h2>
+
+    <section class="sessao-1">
+      <p>Nome: <%= name %></p>
+      <p>Fone: <%= fone %></p>
+      <p>E-mail: <%= email %></p>
+      <img src="/images/2.png" alt="avatar">
+    </section>
     
   </body>
 
